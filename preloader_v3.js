@@ -1,3 +1,4 @@
+// find more preloader svgs here: https://www.svgbackgrounds.com/elements/animated-svg-preloaders/
 // Create the overlay and SVG elements
 const overlay = document.createElement('div');
 overlay.id = 'loader';
