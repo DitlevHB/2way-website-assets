@@ -16,7 +16,7 @@ overlay.style.cssText = `
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = 'https://cdn.jsdelivr.net/gh/DitlevHB/2way-website-assets@main/preload.svg';
+svgImage.src = 'https://cdn.jsdelivr.net/gh/DitlevHB/2way-website-assets@main/6.svg';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
