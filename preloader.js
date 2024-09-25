@@ -36,6 +36,7 @@ document.body.appendChild(svgImage);
 function hideOverlay() {
     overlay.style.display = 'none';
     svgImage.style.display = 'block';
+    document.body.style.backgroundColor = "#F0FEF5";
 }
 
 // Add an event listener to hide the overlay when all external JS files are loaded
@@ -43,6 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Replace the following lines with the actual code that loads your external JS files
     // For demonstration purposes, we'll use a setTimeout to simulate loading external JS files.
     setTimeout(hideOverlay, 100); // Replace with your actual loading code.
+    
 });
 
 // Fallback: If all external resources are loaded and the DOMContentLoaded event doesn't fire,
